@@ -15,3 +15,9 @@ apt-get install gimp gedit emacs pidgin pidgin-otr iceweasel-l10n-zh-cn icedove 
 
 
 
+cd /usr/share/
+git clone https://github.com/rofl0r/proxychains-ng
+cd proxychains-ng
+./configure
+make && make install
+#修改~/.bashrc alias p='proxychains4 -q'
