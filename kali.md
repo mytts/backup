@@ -28,7 +28,7 @@ make && make install
 #apt-get update
 #apt-get install conky-manager
 
-#安装迅雷离线python脚本
+#安装迅雷离线python脚本,需要迅雷的白金帐号
 cd /usr/share
 git clone https://github.com/iambus/xunlei-lixian
 cd xunlei-lixian
