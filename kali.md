@@ -21,3 +21,17 @@ cd proxychains-ng
 ./configure
 make && make install
 #修改~/.bashrc alias p='proxychains4 -q'
+
+#conky theme
+#apt-get install python-software-properties
+#apt-add-repository -y ppa:teejee2008/ppa
+#apt-get update
+#apt-get install conky-manager
+
+#安装迅雷离线python脚本
+cd /usr/share
+git clone https://github.com/iambus/xunlei-lixian
+cd xunlei-lixian
+ln -s /usr/share/xunlei-lixian/lixian_cli.py /bin/lx
+
+
